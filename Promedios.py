@@ -46,6 +46,18 @@ def small(vals):
     print("Y su posicion es: ")
     print(p)
 
-average(nums)
-big(nums)
-small(nums)
+def flip(vals):
+    nums2 = []
+    nums2.append([])
+    z = 0
+    for x in vals:
+        z += 1
+        nums2.append(vals[i-z])
+        print(f"cadena normal: {x}")
+        print(f"cadena invertida: {nums2[z]}")
+
+
+#average(nums)
+#big(nums)
+#small(nums)
+flip(nums)
